@@ -8,5 +8,7 @@ urlpatterns = [
     url(r'^post/(?P<pk>[0-9]+)/edit/$', views.post_edit, name='post_edit'),
     url(r'^accounts/login/$', 'django.contrib.auth.views.login', {'template_name': 'blog/login.html', }),
     url(r'^accounts/logout/$', views.logout_view, ),
+    url(r'^accounts/register/$', views.register),
+    url(r'^register/success/$', views.register_success),
 ]
 
