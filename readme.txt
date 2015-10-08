@@ -14,3 +14,8 @@ registration
 https://mayukhsaha.wordpress.com/2013/05/09/simple-login-and-user-registration-application-using-django/
 https://django-registration.readthedocs.org/en/latest/quickstart.html
 
+8.10.2015
+to allow editing only for author or superuser
+http://stackoverflow.com/questions/4711627/is-boolean-logic-possible-in-django-templates
+(problem with brackets, nesting if needed)
+
